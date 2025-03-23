@@ -11,7 +11,7 @@ namespace show_pdf
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void ZoomTrackBar_MouseUp(object? sender, MouseEventArgs e)
@@ -51,6 +51,15 @@ namespace show_pdf
                         {
                             using (var document = PdfDocument.Load(item))
                             {
+                                ///TODO read all page from pdf and show on pic
+                                //for (int i = 0; i < document.PageCount; i++)
+                                //{
+                                //using (var image = document.Render(i, 3000, 3000, false))
+                                //{
+                                //.
+                                //.
+                                //.
+                                //}
                                 using (var image = document.Render(0, 3000, 3000, false))
                                 {
                                     // Create container panel for each PDF
