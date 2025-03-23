@@ -16,7 +16,7 @@ This project is a Windows Forms application that allows users to view PDF files.
 
 ## Getting Started
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/mohammad-mirzaei-eng/show-pdfs.git
 2. Open the solution in Visual Studio 2022.
 3. Restore the NuGet packages:
 4. Build and run the application.
@@ -68,7 +68,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## شروع به کار
 
-1. مخزن را کلون کنید:
+1. مخزن را کلون کنید: git clone https://github.com/mohammad-mirzaei-eng/show-pdfs.git
 2. راه‌حل را در Visual Studio 2022 باز کنید.
 3. بسته‌های NuGet را بازیابی کنید:
 4. برنامه را بسازید و اجرا کنید.
